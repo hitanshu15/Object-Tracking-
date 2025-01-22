@@ -3,7 +3,7 @@ import cv2 as cv
 import supervision as sv
 from ultralytics import YOLO
 
-# yolo10n = YOLO("yolov10n")
+yolo10n = YOLO("yolov10n")
 
 model = YOLO("best.pt")
 bounding_box_annotator = sv.BoxAnnotator()
